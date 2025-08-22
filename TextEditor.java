@@ -69,8 +69,10 @@ public class TextEditor {
       
 	while(true)
 	{
+		System.out.println("Menu driven program");
 		System.out.println("1.Insert");
 		System.out.println("2.Delete");
+		System.out.println("3.Undo");
 		System.out.println("Enter choice :");
 		int ch=sc.nextInt();
 		switch(ch)
@@ -99,3 +101,4 @@ public class TextEditor {
 	}
 
 }
+
